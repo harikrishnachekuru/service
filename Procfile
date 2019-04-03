@@ -1,1 +1,1 @@
-web: node app.js
+web: waitress-serve --port=$PORT server.wsgi:application
