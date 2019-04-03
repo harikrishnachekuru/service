@@ -27,6 +27,6 @@ app.use('/api',Connections);
 
 mongoose.Promise = global.Promise;
 
-app.listen(process.env.port|| 8080,function(){
+app.listen(process.env.PORT|| 8080,function(){
     console.log("Listening to port 8080 ");
 });
