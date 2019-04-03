@@ -27,6 +27,6 @@ app.use('/api',Connections);
 
 mongoose.Promise = global.Promise;
 
-app.listen(process.env.PORT|| 5000,function(){
+app.listen(process.env.PORT|| 5000, "0.0.0.0",function(){
     console.log("Listening to port 5000 ");
 });
